@@ -1341,7 +1341,7 @@ class Editor extends React.Component {
         keyExtractor={i => i.id}
         extraData={this.state}
         keyboardShouldPersistTaps={"always"}
-        keyboardDismissMode="on-drag"
+        keyboardDismissMode="none"
         contentContainerStyle={styles.contentContainerStyle}
         renderItem={this.renderItem}
         ListFooterComponent={this.renderFooter}
